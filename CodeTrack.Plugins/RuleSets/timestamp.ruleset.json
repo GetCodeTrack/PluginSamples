@@ -1,0 +1,37 @@
+﻿{
+  "$id": "1",
+  "IsSelected": true,
+  "Title": "Timestamp",
+  "Description": "Fields necessary to make Timestamp Value Presenter work",
+  "Guid": "5775c114ae574a2f91569550f4839be0",
+  "MethodRules": [
+    {
+      "$id": "2",
+      "LeftHand": null,
+      "Operator": null,
+      "Text": null,
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    }
+  ],
+  "FieldRules": [
+    {
+      "$id": "3",
+      "Operator": "Equals",
+      "Text": "System.DateTime",
+      "Fields": [ "dateData" ],
+      "IsReadOnly": false,
+      "TraceDerived": false,
+      "LastModified": "2017-10-24T20:42:34.1859801Z"
+    }
+  ],
+  "Category": "ValuePlugin",
+  "Author": "getcodetrack.com",
+  "AuthorContact": "info@getcodetrack.com",
+  "Version": "0.0.0.0",
+  "LastModified": "2017-10-24T20:42:40.888281Z",
+  "IsReadOnly": false
+}

@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MyNamespace">
+
+    <DataTemplate DataType="{x:Type local:MyPlugin}">
+        <Grid>
+            <Button Width="200" Height="30"  Content="Click me" Command="{Binding ClickMeCommand}"/>
+        </Grid>
+    </DataTemplate>
+
+</ResourceDictionary>

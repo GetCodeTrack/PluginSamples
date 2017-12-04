@@ -1,0 +1,180 @@
+﻿{
+  "$id": "1",
+  "IsSelected": true,
+  "Title": "Console lines",
+  "Description": "Console writeline calls",
+  "Guid": "00a554f361594fe986d8e671267cc045",
+  "MethodRules": [
+    {
+      "$id": "2",
+      "LeftHand": "FullNameAndArgs",
+      "Operator": "Equals",
+      "Text": "System.IO.TextWriter.Write(System.String)",
+      "TraceArguments": true,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "3",
+      "LeftHand": "FullName",
+      "Operator": "Equals",
+      "Text": "System.Console.ResetColor",
+      "TraceArguments": true,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "4",
+      "LeftHand": "FullName",
+      "Operator": "Equals",
+      "Text": "System.Console.set_BackgroundColor",
+      "TraceArguments": true,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "5",
+      "LeftHand": "FullName",
+      "Operator": "Equals",
+      "Text": "System.Console.set_ForegroundColor",
+      "TraceArguments": true,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "6",
+      "LeftHand": "FullNameAndArgs",
+      "Operator": "Equals",
+      "Text": "System.IO.TextWriter.WriteLine()",
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "7",
+      "LeftHand": "FullNameAndArgs",
+      "Operator": "Equals",
+      "Text": "System.IO.TextWriter.Write(System.String)",
+      "TraceArguments": true,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "8",
+      "LeftHand": "FullNameAndArgs",
+      "Operator": "Equals",
+      "Text": "System.Console.WriteLine()",
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "9",
+      "LeftHand": "FullNameAndArgs",
+      "Operator": "Equals",
+      "Text": "System.IO.StreamWriter.Write(System.String)",
+      "TraceArguments": true,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "10",
+      "LeftHand": "FullNameAndArgs",
+      "Operator": "Equals",
+      "Text": "System.IO.StreamWriter.WriteLine()",
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "11",
+      "LeftHand": "FullNameAndArgs",
+      "Operator": "Equals",
+      "Text": "System.IO.StreamWriter.WriteLine(System.String)",
+      "TraceArguments": true,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "12",
+      "LeftHand": "FullNameAndArgs",
+      "Operator": "Equals",
+      "Text": "System.IO.TextWriter.WriteLine(System.String)",
+      "TraceArguments": true,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "13",
+      "LeftHand": "FullName",
+      "Operator": "Equals",
+      "Text": "System.Console.Write",
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "14",
+      "LeftHand": "FullName",
+      "Operator": "Equals",
+      "Text": "System.Console.WriteLine",
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    },
+    {
+      "$id": "15",
+      "LeftHand": "FullName",
+      "Operator": "Equals",
+      "Text": "NLog.LoggerImpl.Write",
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "2017-11-12T22:42:20.2422844Z"
+    }
+  ],
+  "FieldRules": [
+    {
+      "$id": "16",
+      "Operator": null,
+      "Text": null,
+      "Fields": [],
+      "IsReadOnly": false,
+      "TraceDerived": false,
+      "LastModified": "0001-01-01T00:00:00"
+    }
+  ],
+  "Category": "Plugin Sets",
+  "Author": "getcodetrack.com",
+  "AuthorContact": "info@getcodetrack.com",
+  "Version": "1.0.0.0",
+  "LastModified": "0001-01-01T00:00:00",
+  "IsReadOnly": true
+}

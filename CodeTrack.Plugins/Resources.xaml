@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:deepTraceInterface="clr-namespace:CodeTrack.Interface;assembly=CodeTrack.Interface"
+                    xmlns:converters="clr-namespace:CodeTrack.Converters"
+                    xmlns:mahapps="http://metro.mahapps.com/winfx/xaml/controls" 
+                    xmlns:local="clr-namespace:CodeTrack.Controls.DeepTraceContainer"
+                    
+                    >
+
+
+    <ResourceDictionary.MergedDictionaries>
+
+
+        <ResourceDictionary Source="Controls/CallList/CallListControl.xaml" />
+        <ResourceDictionary Source="Generic/GenericPlugin.xaml" />
+        <ResourceDictionary Source="Console/ConsolePlugin.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

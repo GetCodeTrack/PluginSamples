@@ -1,0 +1,37 @@
+﻿{
+  "$id": "1",
+  "IsSelected": true,
+  "Title": "Timespan",
+  "Description": "Fields necessary to make Timespan Value Presenter work",
+  "Guid": "97A11447DF7D477E81B96B93402BFCE5",
+  "MethodRules": [
+    {
+      "$id": "2",
+      "LeftHand": null,
+      "Operator": null,
+      "Text": null,
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": false,
+      "LastModified": "0001-01-01T00:00:00"
+    }
+  ],
+  "FieldRules": [
+    {
+      "$id": "3",
+      "Operator": "Equals",
+      "Text": "System.TimeSpan",
+      "Fields": [ "_ticks" ],
+      "IsReadOnly": false,
+      "TraceDerived": false,
+      "LastModified": "2017-10-24T21:11:26.5327452Z"
+    }
+  ],
+  "Category": "Plugin Sets",
+  "Author": "getcodetrack.com",
+  "AuthorContact": "info@getcodetrack.com",
+  "Version": "0.0.0.0",
+  "LastModified": "2017-10-24T21:10:05.7140163Z",
+  "IsReadOnly": true
+}

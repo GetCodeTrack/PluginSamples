@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:deepTraceInterface="clr-namespace:CodeTrack.Interface;assembly=CodeTrack.Interface"
+                    xmlns:converters="clr-namespace:CodeTrack.Converters"
+                    xmlns:mahapps="http://metro.mahapps.com/winfx/xaml/controls" 
+                    xmlns:local="clr-namespace:CodeTrack.Plugins"
+                    xmlns:controls="clr-namespace:CodeTrack.Plugins.Controls">
+
+    <DataTemplate DataType="{x:Type local:GenericPlugin}">
+        <Grid DataContext="{Binding DataContext}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+            <DockPanel LastChildFill="True">
+                <Image Source="..\Images\appbar.filter.png" VerticalAlignment="Center" Margin="2,2,7,2" Width="20" Height="20"/>
+                <TextBox Text="{Binding Path=FilterText, ElementName=callListCtrl, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" Margin="0,2,0,4"/>
+            </DockPanel>
+            
+            <controls:CallListControl Grid.Row="1" x:Name="callListCtrl"
+                                              Document="{Binding Mode=OneWay}" 
+                                              Store="{Binding Store, Mode=OneWay}"
+                                              StoreIsInvalid="{Binding Store.IsInvalid, Mode=OneWay}"
+                                              />
+
+            <TextBlock Grid.Row="0" Grid.RowSpan="2"  Text="No calls matching the filter could be found that were traced with at least one deeptrace ruleset enabled."
+                                   TextWrapping="WrapWithOverflow" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                                   Visibility="{Binding ElementName=callListCtrl, Path=Calls, Converter={local:NullToVisibilityConverter},ConverterParameter=True}"/>
+
+
+        </Grid>
+    </DataTemplate>
+
+</ResourceDictionary>
