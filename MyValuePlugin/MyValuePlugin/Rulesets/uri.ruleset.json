@@ -1,0 +1,37 @@
+﻿{
+  "$id": "1",
+  "IsSelected": true,
+  "Title": "Uri",
+  "Description": "Fields necessary to make Uri Value Presenter work",
+  "Guid": "5cd96aa9f76e4baaacad935de2505951",
+  "MethodRules": [
+    {
+      "$id": "2",
+      "LeftHand": null,
+      "Operator": null,
+      "Text": null,
+      "TraceArguments": false,
+      "TraceAllChildren": false,
+      "TraceDerived": false,
+      "IsReadOnly": true,
+      "LastModified": "0001-01-01T00:00:00"
+    }
+  ],
+  "FieldRules": [
+    {
+      "$id": "3",
+      "Operator": "Equals",
+      "Text": "System.Uri",
+      "Fields": [ "m_String" ],
+      "IsReadOnly": true,
+      "TraceDerived": false,
+      "LastModified": "2018-01-07T18:50:41.9839771Z"
+    }
+  ],
+  "Category": "Plugin Sets",
+  "Author": "getcodetrack.com",
+  "AuthorContact": "info@getcodetrack.com",
+  "Version": "0.0.0.0",
+  "LastModified": "2018-01-07T18:48:56.9366928Z",
+  "IsReadOnly": true
+}

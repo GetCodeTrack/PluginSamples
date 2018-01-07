@@ -3,3 +3,9 @@
 ################################################################################
 
 /CodeTrack.Plugins/obj
+/CodeTrack.Plugins/.vs
+/MyValuePlugin/packages/CodeTrack.Interface.1.0.0-alpha
+/MyValuePlugin/MyPlugin/obj
+/MyValuePlugin/MyPlugin/bin/Debug
+/MyValuePlugin/.vs
+/MyPlugin/MyPlugin/obj/Debug
